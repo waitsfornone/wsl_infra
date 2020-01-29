@@ -1,4 +1,4 @@
-FROM mongo
+FROM mongo:latest
 
 USER root
 COPY ../config_files/mongod.conf /etc/mongod.conf
