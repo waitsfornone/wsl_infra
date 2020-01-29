@@ -1,0 +1,6 @@
+FROM mongo
+
+USER root
+COPY ../config_files/mongod.conf /etc/mongod.conf
+
+# I might need a CMD here to start up mongo, but I don't think so
